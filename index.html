@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<LINK href="top.css" rel="stylesheet" type="text/css"/>
+<LINK href="zbody.css" rel="stylesheet" type="text/css"/>
+<title>DIGIT WORLD</title>
+
+</head>
+
+<body>
+ <!-- top  style="background-image:url('gif.gif')"-->
+ <div class="row" >
+  <div class="col-md-4">
+  	   				  <a href="#" class="fa fa-facebook"> </a>
+  	   				  <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a></div>
+  <div class="col-md-4" style="margin-top:1%">
+  	   				  <center><img src="logo1.png" width="60%"></center> </div>
+  
+  <div class="col-md-4">
+  	   			   <button class="button" >Login</button> <button class="button">Register</button>
+                   <h6><a href="#" class="fa fa-cart-arrow-down"></a><a href="#">Shopping Cart</a></h6> </div> 
+  </div>
+
+<!-- new navbar -->
+<nav class="navbar navbar-expand-lg" style="margin-left:30%"> <!-- expand lg la dung de wrap cac nav lai vs nhau nam inline --> 
+
+   <ul class="navbar-nav ">
+     <li class="nav-item">
+        <a href="#" class="fa fa-home"> </a>
+       </li>
+  <!-- li nay lon bao boc -->  
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown"> <!-- so list chon dc 1 muc chia dc cac phan --> 
+          GENRE
+        </a>
+    <div class="dropdown-menu" >
+          
+          <div class="container"> <!-- chia cot bootstrap 4 --> 
+            <div class="row">
+      
+              <div class="col-md-4">
+                <ul class="nav flex-column"><!-- flex la hien thi vertical tren cac man hinh khac nhau -->  
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+        <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+
+  </div>
+    </div>
+    <!--  /.container va li bao boc  -->
+    </div>
+    </li>
+	</ul>
+  <ul class="navbar-nav ">
+     <li class="nav-item">
+        <a class="nav-link" href="#">PCs</a>
+       </li>
+	   </ul>
+  <ul class="navbar-nav ">
+     <li class="nav-item">
+        <a class="nav-link" href="#">CONSOLE</a>
+       </li> </ul>  
+  <ul class="navbar-nav ">
+     <li class="nav-item">
+        <a class="nav-link" href="#">PREVIEW</a>
+       </li>   
+	   </ul> 
+
+</nav>
+<br>
+
+<!-- LARGE BODY, BOOTSTRAP BAT BUOC PHAI CO DIV CONTAINER BEN NGOAI DE NO TU CANH GIUA TRONG 12. -->
+<div class="container" style="background-image:url('zbd.jpg'); opacity:0.9; border-radius:3%;">
+<!-- DAY LA SLIDE CAROSEL --><br />
+  <div class="row">
+  <div class="col-md-8" >
+         <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#slides" data-slide-to="0" class="active"></li> <!-- BAO NHIU ?NH THÌ B?Y NHIU TARGET KHAI BÁO-->
+          <li data-target="#slides" data-slide-to="1"></li>
+          <li data-target="#slides" data-slide-to="2"></li>
+          <li data-target="#slides" data-slide-to="3"></li>
+        </ul>
+      <div class="carousel-inner top-carousel-inner" >
+        <div class="carousel-item active">
+          <img src="zgame.png" width="100%" height="500" class="d-block">
+        </div>
+        <div class="carousel-item"> <!-- PH?I CÓ DÒNG ITEM NÓ M?I HI?U -->
+          <img src="zgame.png" width="100%" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="zgame.png" width="100%" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="zgame.png" width="100%" height="500">
+        </div>
+        <a class="carousel-control-prev" href="#slides" data-slide="prev"> <!-- NÚT ÐI?U KHI?N  -->
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slides" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      </div>
+	  
+	  <br />
+<a href="AIT.html"><img src="support.png" class="img-responsive" alt="Image" width="50%" height="31%" ></a>
+<a href="AIT.html"><img src="list.png" class="img-responsive" style="float:left;" alt="Image" width="50%" height="31%"></a>
+  </div>    
+<div class="col-md-4 text-center" >
+<a href="AIT.html"><img src="support.png" class="img-responsive" alt="Image" width="80%" height="30%"></a>
+<a href="AIT.html"><img src="list.png" class="img-responsive" alt="Image" width="80%" height="30%"></a>
+<a href="AIT.html"><img src="vipper.png" class="img-responsive" alt="Image" width="80%" height="30%"></a>
+  </div>
+</div> <!-- day la div row dong -->
+
+<div class="container">
+      <div class="row"> <!--chia ra 3 cot deu nhau theo luoi grid 12 cot -->
+        <div class="col-md-4 text-center ">
+             <a href="#" class="fa fa-rocket"> </a>
+            <h4 style="color:white">Fast Delivery</h4>
+        </div>
+        <div class="col-md-4 text-center">
+             <a href="#" class="fa fa-gift"> </a>
+            <h4 style="color:white">Best Guarantee</h4>
+	    </div>
+        <div class="col-md-4 text-center"> 
+              <a href="#" class="fa fa-gamepad"> </a>
+            <h4 style="color:white">High Quality</h4>
+	   </div>
+      </div>
+    </div>
+	
+<hr />
+<!-- 4 product slider -->
+<h2 class="text-center" style="color:#8A001E">PRODUCTS</h2>
+<div class="container">
+			<div class="row">
+				<div class="slide_wrapper">
+					<div id="carouselExampleProduct" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<!--1st Slide-->
+							<div class="carousel-item active">
+								<div class="row">
+									<div class="col-3">
+										<img src="zgame.png" class="d-block w-100" alt="firstProduct">
+									</div>
+									<div class="col-3">
+										<img src="zgame.png" class="d-block w-100" alt="firstProduct">
+									</div>
+									<div class="col-3">
+										<img src="zgame.png" class="d-block w-100" alt="firstProduct">
+									</div>
+									<div class="col-3">
+										<img src="zgame.png" class="d-block w-100" alt="firstProduct">
+									</div>
+								</div>
+							</div>
+							<!--End 1st Slide-->
+							<!--2nd Slide-->
+							<div class="carousel-item">
+								<div class="row">
+									<div class="col-3">
+										<img src="zgame.png" class="d-block w-100" alt="firstProduct">
+									</div>
+									<div class="col-3">
+										<img src="zgame.png" class="d-block w-100" alt="firstProduct">
+									</div>
+									<div class="col-3">
+										<img src="zgame.png" class="d-block w-100" alt="firstProduct">
+									</div>
+									<div class="col-3">
+										<img src="zgame.png" class="d-block w-100" alt="firstProduct">
+									</div>
+								</div>
+							</div>
+							<!--End 2nd Slide-->
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleProduct" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleProduct" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+				<!--End 2nd Slide for Products-->
+				<hr />
+  <!-- THIS IS COLLAPSE FAQ -->
+  <center><h2 style="color:#8A001E">FAQ</h2> </center>
+  <div class="container" style="opacity:0.8">
+  <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+</div> <!-- dong container cua FAQ--><br />
+ 
+ </div><!-- END DIV CONTAINER BIG --> 
+</body>
+
+<footer>
+<div class="container">
+<div class="row">
+  <div class="col-md-4 text-center" >  
+  <img src="logo1.png"><br>
+<iframe class="img-responsive img-thumbnail" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.6626580958668!2d106.66520265820785!3d10.786376998078707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIEPDoWNoIE3huqFuZyBUaMOhbmcgOCwgcGjGsOG7nW5nIDExLCBUw6JuIELDrG5oLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1520391560324"
+width="auto" height="170px" frameborder="0" style="border:0" allowfullscreen>
+</iframe>
+  </div>
+  
+  <!--col phai -->
+  <div class="col-md-8" >
+  <h4 class="text-center" style="color:#8A001E">SEND A MESSAGE TO US</h4>
+  <div class="row"> 
+<form class="form-inline" >
+<div class="col-sm-6" >
+  <input type="email" id="email" placeholder="Email" name="email">
+  </div>
+  <div class="col-sm-6" >
+  <input type="phone" id="phone" placeholder="Phone number" name="phone">
+  </div> 
+</form>
+  </div> <!-- row phai-->
+<div class="row">
+<form class="form-inline" >  
+  <input type="text" id="title" placeholder="Title" class="title" style="margin-left:18%; width:760px;">
+</form>
+</div>  <!-- row phai-->
+
+<div class="row">
+<form class="form-inline">  
+  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width:760px;"></textarea>
+</form>
+<br/><input class="submit" type="submit" value="Submit">
+</div>  <!-- row phai-->
+
+  </div> <!-- col8 -->
+
+</div>  <!-- row tong-->
+</div><!-- container-->
+
+<hr />
+<div class="container">
+<nav class="navbar navbar-expand-md" style="margin-left:28%" >
+        <ul class="navbar-nav" style="list-style:none">
+        <li class="navbar-item"><a href="content.html" >Home</a></li>
+        <li class="navbar-item"><a href="product.html" >Genre</a></li>
+        <li class="navbar-item"><a href="support.html" >PCs</a></li>
+        <li class="navbar-item"><a href="where to buy.html">Console</a></li>
+        <li class="navbar-item"><a href="aboutus.html">Previews</a></li>
+        </ul>
+</nav>		
+        <!--foote_bottom_ul_amrc ends here--> <br/>
+        <p class="text-center" style="color:white">Copyright @2018 | Krist Huynh</p>
+        </div>
+		<br />
+</footer>
+
+</html>

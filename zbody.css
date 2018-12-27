@@ -1,0 +1,83 @@
+body{background-image:url('zbd.jpg');
+background-size:100%;
+overflow-x:hidden; }
+
+footer{
+background-image:url('zbg.jpg');
+background-size:100%;}
+/* CSS BODY */
+.top-carousel-inner{
+	border-radius: 10%;
+	}
+    
+.img-responsive{
+padding:1%; }
+
+    
+.fa-rocket {
+  font-size:100px;
+}
+.fa-gift {
+  font-size:100px;
+}
+
+.fa-gamepad {
+  font-size:100px;}
+  
+.card {
+padding:0.5%; }
+
+/* FOOTER */
+/* Style the form - display items horizontally */
+.form-inline { 
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Style the input fields */
+.form-inline input {
+  margin-left:40%;
+  margin-top:1%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1% solid #ddd;
+  opacity:0.8;
+}
+.form-inline textarea {
+  margin-left:18%;
+  margin-top:1%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1% solid #ddd;
+  opacity:0.7;
+}
+.submit{
+margin-left:85%; 
+margin-top:1%;
+background-color: #564040;
+color: #FFF7D6;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+border-radius: 16px;
+}
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+div container ul li {
+	display: inline;
+	padding: 0px 20px 5px 10px;
+	height: 24px;
+    text-decoration: none;
+}
+
+  
+
+
