@@ -79,7 +79,7 @@ nav ul li a {
 }
 
 .navbar .dropdown-menu {
-  background-image:url('bd.jpg');
+  background-image:url('zbd.jpg');
 }
 
   /* bo padding cua navbar de thanh drop ko bi de le phia tren remove the padding from the navbar so the dropdown hover state is not broken */
